@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-weight: 300;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  }
+  
+  body {
+    font-size: 1.25rem;
+    position: relative;
+  }
+  
+/* Navigation */
+.nav {
+    height: 5.5rem;
+    border-bottom: 1px solid #d3d3d3;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10000;
+  }
+  
+  .nav::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    clear: both;
+  }
+  
+  .nav__list {
+    list-style: none;
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+  
+  .nav__left ul {
+    float: left;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+  }
+  
+  .nav__left ul > * {
+    margin-right: 2rem;
+  }
+  
+  .nav__left i {
+    color: black;
+    font-size: 1.5rem;
+  }
+  
+  .link--black:link, 
+  .link--black:visited {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  
+  .link--black:hover, 
+  .link--black:active {
+    text-decoration: underline
+  }
+  
+  .nav__right {
+    position: absolute;
+    right: 2rem;
+    top:30%;
+    transform: translateY(-50%);
+  }
+  
+  .nav__list li {
+    display: inline
+  }
+  
+  .logo {
+    display: inline-block;
+    width: 20rem;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .frame
+{
+background-color:#567b95;
+height:30px;
+width:150px;
+border-radius:3px;
+right: 150px;
+top: 10px;
+
+display:flex;
+flex-direction:row;
+justify-content:flex-start;
+align-items:center;
+position:relative;
+}
+.playingspellingbee
+{
+color:#ffffff;
+text-align:left;
+vertical-align:text-middle;
+font-size:10.484375px;
+font-family:Inter;
+align-self:flex-start;
+left:13px;
+top:9px;
+position:absolute;
+letter-spacing:0.550000011920929px;
+line-height:11px;
+border-style:hidden;
+outline:none;
+width:132px;
+display:flex;
+}
+.Account{
+    color: rgb(18, 18, 18);
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+.War{
+    display: inline-block;
+    white-space: pre;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 7px;
+    /* font: inherit; */
+  /* vertical-align: baseline; */
+  color: var(--color-content-primary,#121212);
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 900;
+  /* letter-spacing: 0.1rem; */
+  font-size: 1.5375rem;
+  /* line-height: 0.9375rem; */
+  /* white-space: nowrap; */
+}
+/* CSS stylesheet or style block */
+.War:hover {
+    text-decoration: underline;
+    cursor: pointer; /* Optional: Change cursor to a pointer on hover */
+  }
+  
+.arrow{
+    position: absolute;
+    margin-top: 7fwpx;
+}
+.columns{
+    position: absolute;
+    margin-left: 455px;
+    margin-top: -15px;
+}
+.inline-p {
+    display: inline-block;
+    color: black;
+padding-left: 465px;
+padding-top: 1px;
+  }
+  .list-item {
+    font-size: 1.3rem;
+    padding-right: 2rem;
+  }
+
+.live{
+    color: red;
+    font-size: 1.4rem;
+    position: absolute;
+  margin-left: 424px;
+  margin-top: 11px;
+  font-weight: 700;
+}

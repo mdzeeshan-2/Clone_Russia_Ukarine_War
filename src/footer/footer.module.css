@@ -1,0 +1,48 @@
+.divider {
+  margin-top: 33500px;
+}
+
+.footerContainer {
+  padding-left: 15%;
+  padding-top: 33600px;
+}
+
+.logo {
+  width: 184px;
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  font-size: 15px;
+  font-family: var(--secondary-font);
+  list-style: none;
+  text-transform: capitalize;
+  columns: auto 2;
+  margin: 20px 0;
+}
+
+.nav > li {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+.head{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+  .nav {
+    columns: 3;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    columns: 4;
+  }
+}
